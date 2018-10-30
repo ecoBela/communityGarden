@@ -27,6 +27,8 @@ header{
 
 .headerImage{
 	margin: 1em;
+	height: 15%;
+	width: 15%;
 }
 
 nav{
@@ -37,11 +39,11 @@ nav{
 
 nav ul{
 	list-style: none;
-	font-size: 1.75em;
 }
 nav li{
 	display: inline-block;
 	padding: 20px;
+	font-size: 1.75em;
 }
 
 
@@ -81,6 +83,33 @@ footer p{
 	/*font-size: 10px;*/
 	margin-right: 1em;
 }
+
+
+@media (min-width: 700px) {
+	.grid {
+		grid-template-columns: 1fr 1fr 2fr;
+		grid-gap: 0.5em;
+		grid-template-areas: 
+		"header header 	header"
+		"nav	nav		nav"
+		"mainContent mainContent mainImage"
+		"resourceHub resourceHub resourceHub"
+		"footer		footer	footer"
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 
 
 /*figure{
