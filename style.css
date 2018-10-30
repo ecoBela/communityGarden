@@ -85,24 +85,7 @@ footer p{
 }
 
 
-@media (min-width: 700px) {
-	.grid {
-		grid-template-columns: 1fr 1fr 2fr;
-		grid-gap: 0.5em;
-		grid-template-areas: 
-		"header header 	header"
-		"nav	nav		nav"
-		"mainContent mainContent mainImage"
-		"resourceHub resourceHub resourceHub"
-		"footer		footer	footer"
-	}
 
-
-
-
-
-
-}
 
 
 
