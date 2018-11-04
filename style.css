@@ -27,8 +27,14 @@ header{
 
 .headerImage{
 	margin: 1em;
-	height: 15%;
+	height: auto;
 	width: 15%;
+}
+
+header h1{
+	color: white;
+	margin: 10px;
+	line-height: 30px; 
 }
 
 nav{
@@ -85,9 +91,20 @@ footer p{
 }
 
 
+@media(min-width: 700px) {
+	.grid {
+		display: grid;
+		grid-template-areas:
+		"header header"
+		"nav nav"
+		"mainContent mainContent"
+		"resourceHub mainImage"
+		"footer footer" 
+	}
 
+}
 
-@media screen and (min-width: 700px) {
+/*@media screen and (min-width: 700px) {
 	.grid{
 		display: grid;
 		grid-template-areas: 
@@ -99,7 +116,7 @@ footer p{
 	};
 
 
-}
+}*/
   
 
 /*@media (min-width: 800px) {
