@@ -99,10 +99,64 @@ footer p{
 		"nav nav"
 		"mainContent mainContent"
 		"resourceHub mainImage"
-		"footer footer" 
+		"footer footer"; 
 	}
 
 }
+
+/*Styles below are for the Image Gallery page.  Styles above are for 
+the homepage*/
+
+.gridForGallery{
+	display: grid;
+	grid-gap: 0.5em;
+
+	grid-template-areas: 
+	"header"
+	"nav"
+	"imageA"
+	"imageB"
+	"imageC"
+	"imageD"
+	"footer"
+}
+
+.image1 {
+	grid-area: imageA;
+}
+
+.image2 {
+	grid-area: imageB;
+}
+
+.image3 {
+	grid-area: imageC;
+}
+
+.image4 {
+	grid-area: imageD;
+}
+
+.image1, .image2, .image3, .image4 {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*@media(min-width: 700px) {
+	.gridForGallery {
+		display: grid;
+		grid-template-areas:
+		"header header"
+		"image1 image2"
+		"image3 image4"
+		"footer footer" 
+	}
+
+}*/
+
+
 
 /*@media screen and (min-width: 700px) {
 	.grid{
