@@ -66,7 +66,14 @@ main{
 	grid-area: mainImage;
 	width: 100%;
 	height: 100%;
+	transition: all 1s;
 }
+
+
+.Diggingturf:hover {
+	transform: scale(1.1);
+}
+
 
 aside{
 	grid-area: resourceHub;
@@ -108,9 +115,36 @@ footer p{
 the homepage*/
 
 .gridForGallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.h1Gallery {
+
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+	margin: 10px;
+	}
+
+.galleryImage{
+	transition: all 1s;
+}
+
+.galleryImage:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+/*.gridForGallery{
 	display: grid;
 	grid-gap: 0.5em;
-
 	grid-template-areas: 
 	"header"
 	"nav"
@@ -140,7 +174,8 @@ the homepage*/
 .image1, .image2, .image3, .image4 {
 	width: 100%;
 	height: 100%;
-}
+}*/
+
 
 
 
@@ -149,11 +184,12 @@ the homepage*/
 		display: grid;
 		grid-template-areas:
 		"header header"
+		"nav nav"
 		"image1 image2"
-		"image3 image4"
-		"footer footer" 
+		"image1 image3"
+		"image4	image4"
+		"footer footer";
 	}
-
 }*/
 
 
