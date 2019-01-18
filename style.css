@@ -95,6 +95,7 @@ footer p{
 	text-align: right;
 	/*font-size: 10px;*/
 	margin-right: 1em;
+	font-size: 0.75em;
 }
 
 
@@ -114,10 +115,14 @@ footer p{
 /*Styles below are for the Image Gallery page.  Styles above are for 
 the homepage*/
 
-.gridForGallery{
+.imageContainer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	/*display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200fr, 1fr));
+	grid-template-rows: 1fr;*/
 }
 
 .h1Gallery {
