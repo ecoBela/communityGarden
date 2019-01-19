@@ -91,13 +91,13 @@ footer{
 	grid-area: footer;
 	background-color: rgb(73, 113, 100);
 }
+
 footer p{
 	text-align: right;
 	/*font-size: 10px;*/
 	margin-right: 1em;
-	font-size: 0.75em;
+	font-size: 1em;
 }
-
 
 @media(min-width: 700px) {
 	.grid {
